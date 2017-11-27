@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+  </head>
+  <body>
+  	<script src="https://unpkg.com/vue"></script>
+
+    <div id="app">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" style="font-weight: 600; font-size: 25px;" href="#">Snaps</a>
+          <div class="navbar-nav" style="flex: 1;">
+              <a class="nav-item nav-link" href="layout.html">Home</a>
+              <a class="nav-item nav-link" href="search.html">Explore</a>
+              <a class="nav-item nav-link" href="what_we_do.html">Missions</a>
+          </div>
+              <div class="navbar-nav">
+                  <a class="nav-item nav-link" href="dashboard.html">Dashboard</a>
+              </div>
+      </nav>
+      </header>
+    	<div id="content">
+        <div class="mission-input">
+          <div class="mission-description">
+            <div class="mission-description-1">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Mission title">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Mission description</textarea>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Tags">
+                </div>
+              </form>
+            </div>
+            <div class="mission-description-2">
+              <div class="form-group">
+
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="individual"> Individual
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="pool"> Pool
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group" style="text-align: left">
+                <label for="end-date">Mission end date</label>
+                <input type="date" class="form-control" name="end-date" placeholder="End date">
+              </div>
+
+              <div class="form-group">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option selected disabled>Photographer</option>
+                  <option>Hired photographers</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" placeholder="Amount">
+              </div>
+            </div>
+          </div>
+
+          <div class="mission-example-images">
+            <h4>Example images</h4>
+            <p>Here you can provide images that capture the aesthetic and feeling you want.</p>
+            <div class="collection-grid">
+                  <div class="grid">
+                    <div class="cell">
+                      <img src="pictures/Fashion/ph_3_fashion_1.jpg" class="responsive-image">
+                    </div>
+                    <div class="cell">
+                      <img src="pictures/Fashion/ph_6_fashion_4.jpg" class="responsive-image">
+                    </div>
+                    <div class="cell">
+                      <img src="pictures/Fashion/ph_7_fashion_5.jpg" class="responsive-image">
+                    </div>                                   
+                  </div>
+            </div>
+          </div>
+
+          <hr/>
+
+          <div class="mission-controls" style="text-align: right; margin-bottom: 50px;">
+              <button type="button" class="btn btn-outline-danger">Delete</button>
+              <button type="button" class="btn btn-outline-primary">Save</button>
+              <button type="button" class="btn btn-outline-success">Launch</button>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>

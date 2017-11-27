@@ -1,0 +1,252 @@
+body {
+	box-sizing: border-box
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+
+	background: url('bg.jpg') no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.hero-text {
+	text-align: center;
+}
+
+.hero-text h1, .hero-text p {
+	color: white;
+}
+
+.hero-text p {
+	font-size: 20px;
+}
+
+#content {
+	text-align: center;
+}
+
+.curated {
+	padding-top: 50px;
+}
+
+.collection-nav {
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	justify-content: space-between;
+	width: 500px;
+	border-bottom: 1px solid black;
+}
+
+.collection-grid {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+	display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
+}
+
+.cell {
+  margin: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .cell {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(33.3333% - 2rem);
+  }
+}
+
+.what-we-do {
+	padding-top: 50px;
+}
+
+.box-row {
+	text-align: left;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	max-width: 800px;
+}
+
+.box {
+	width: 200px;
+}
+
+.box-2 {
+	width: 250px;
+}
+
+.box-2-image {
+	width: 100%;
+}
+
+.box-image {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	margin-bottom: 5px;
+}
+
+.search {
+	margin: 0 auto;
+	display: flex;
+	max-width: 500px;
+	justify-content: space-between;
+}
+
+.search * {
+	max-width: 200px;
+}
+
+.search-bagde {
+	width: auto;
+}
+
+.photographer-top {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	max-width: 800px;
+}
+
+.photographer-info {
+	text-align: left;
+}
+
+.photographer-info p {
+	margin-bottom: 5px;
+}
+
+.highlight {
+	font-weight: 500;
+}
+
+.photo-display {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.photo-display * {
+	flex: 1;
+}
+
+.photo-display-context {
+	text-align: left;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.photo-display-actions {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.photo-featured-in {
+	margin: 0 auto;
+	max-width: 800px;
+	padding-top: 30px;
+}
+
+.mission-overview {
+	text-align: left;
+	padding-top: 50px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.mission-list {
+	padding-top: 50px;
+	text-align: left;
+}
+
+.mission-input {
+	padding-top: 20px;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.mission-description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.mission-description-1 {
+	padding: 20px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.mission-description-2 {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.mission-hero {
+	background: url('../pictures/Layout/mission_bg.jpg') no-repeat bottom center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	display: flex;
+	align-items: center;
+}
+
+.contributions {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+
+.flex-row {
+	display: flex;
+	align-items: center;
+}
+
+.flex-1 {
+	flex: 1;
+}

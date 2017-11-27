@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+  </head>
+  <body>
+  	<script src="https://unpkg.com/vue"></script>
+
+    <div id="app">
+    	<header>
+    		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			  <a class="navbar-brand" style="font-weight: 600; font-size: 25px;" href="#">Snaps</a>
+    		  <div class="navbar-nav" style="flex: 1;">
+    		      <a class="nav-item nav-link active" href="layout.html">Home <span class="sr-only">(current)</span></a>
+    		      <a class="nav-item nav-link" href="search.html">Explore</a>
+    		      <a class="nav-item nav-link" href="what_we_do.html">Missions</a>
+    		  </div>
+              <div class="navbar-nav">
+                  <a class="nav-item nav-link" href="dashboard_user.html"><button type="button" class="btn btn-outline-light">I'm a photographer</button></a>
+              </div>
+			</nav>
+    	</header>
+    	<div id="content">
+    		<div class="cotainer-fluid hero">
+    			<div class="hero-text">
+    				<h1>Real people, real photography</h1>
+    				<p>License or co-create original work<br/>
+    				with a community of photographers<br/>
+    				from your target audience</p>
+    				<a href="what_we_do.html"><button type="button" class="btn btn-outline-light">Explore opportunities</button></a>
+    			</div>
+    		</div>
+    		<div class="container curated">
+    			<h1 id="curated-collections">Curated collections</h1>
+    			<div class="collection-nav">
+    				<a href="layout.html#curated-collections" class="collection-nav-active" style="color: red;">Fashion</a>
+    				<a href="layout_with_mom.html#curated-collections" class="">Mom</a>
+	    			<a href="#" class="">Travel</a>
+	    			<a href="#" class="">Food</a>
+	    			<a href="#" class="">Copenhagen</a>
+	    			<a href="#" class="">More</a>
+    			</div>
+    			<div class="collection-grid">
+    				  <div class="grid">
+					    <div class="cell">
+                        <a href="photo.html">
+					      <img src="pictures/Fashion/ph_3_fashion_1.jpg" class="responsive-image">
+                        </a>
+					    </div>
+					    <div class="cell">
+					      <img src="pictures/Fashion/ph_6_fashion_4.jpg" class="responsive-image">
+					    </div>
+					    <div class="cell">
+					      <img src="pictures/Fashion/ph_7_fashion_5.jpg" class="responsive-image">
+					    </div>
+					    <div class="cell">
+					      <img src="pictures/Fashion/ph_7_fashion_6.jpg" class="responsive-image">
+					    </div>
+					    <div class="cell">
+					      <img src="pictures/Fashion/ph_7_fashion_9.jpg" class="responsive-image">
+					    </div>
+					    <div class="cell">
+					      <img src="pictures/Fashion/ph_7_fashion_10.jpg" class="responsive-image">
+					    </div>
+					    <div class="cell">
+					      <img src="pictures/Fashion/ph_7_fashion_11.jpg" class="responsive-image">
+					    </div>
+					    <div class="cell">
+					      <img src="pictures/Fashion/ph_7_fashion_14.jpg" class="responsive-image">
+					    </div>					    					    
+					  </div>
+    			</div>
+    		</div>
+            <div class="what-we-do container">
+                <h1 style="margin-bottom: 20px;">What we do</h1>
+                <div class="box-row">
+                    <div class="box">
+                        <div class="box-image">
+                            <img class="responsive-image" src="pictures/Layout/pool1_1.png"/>
+                        </div>
+                        <h4>Access the pool</h4>
+                        <p>Browse pictures and find photographers with an aesthetic you like. <br/>License individual photos.</p>
+                        <a href="search.html">Explore collections</a>
+                    </div>
+                    <div class="box">
+                        <div class="box-image">
+                            <img class="responsive-image" src="pictures/Layout/create_mission.jpg"/>
+                        </div>
+                        <h4>Create a mission</h4>
+                        <p>Hire individual photographers to do tailored assignments, or create a mission pool and let photographers contribute ideas and photos.</p>
+                        <a href="what_we_do.html">Explore missions</a>
+
+                    </div>
+                    <div class="box">
+                        <div class="box-image">
+                            <img class="responsive-image" src="pictures/Layout/consultancy.jpg"/>
+                        </div>
+                        <h4>Consultancy</h4>
+                        <p>Let the creative minds of your target audience pick photographers and photos for your project.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+    	</div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
